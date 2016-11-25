@@ -24,7 +24,7 @@ Turning this setting on also requires you to create and store a default associat
 2.  Click **Enabled**, and then in the **Options** area, type the location to your default associations configuration file.<p>
 If this setting is turned on and your employee's device is domain-joined, this file is processed and default associations are applied at logon. If this setting isn't configured or is turned off, or if your employee's device isn't domain-joined, no default associations are applied at logon.
 
-Your employees can change this setting by changing the Internet Explorer default value from the **Set Default Programs** area of the Control Panel.
+Your employees can change this setting by changing the Internet Explorer default value from the **Set Default Programs** area of the Control Panel. But when they restart or logoff the computer the next time they logon the values are set back to the default as configured in the .XML file. If we what to only modify the defaults it can be done during OS deployment or by script.
 
  
 
